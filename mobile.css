@@ -1,0 +1,64 @@
+@media screen and (max-width:555px) {
+    section{
+        margin: 0;
+    }
+    .header{
+        background-image: none;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        text-align: center;
+        box-sizing: border-box;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        margin-left: -5px;
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    .banner img{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+
+    .skills-container{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* about section */
+    .about{padding: 5px;}
+    .about-info-container {
+        flex-direction: column;
+    }
+    .about-info{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* resume section*/
+    .resume-content{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* contact-section */
+    .contact{
+        flex-direction: column;
+        padding: 5px;
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .contact input[type="text"], input[type="email"], textarea{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+        
+}
